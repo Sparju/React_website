@@ -1,0 +1,15 @@
+{
+  "name": "react_website",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
